@@ -77,6 +77,7 @@ class ContactTableViewCell: UITableViewCell {
         nameLabel.frame.size = nameLabel.intrinsicContentSize
 
         emailLabel.text = contact.email
+        emailLabel.textColor = .secondary
         emailLabel.font = .systemFont(ofSize: 14, weight: .regular)
         emailLabel.frame.size = emailLabel.intrinsicContentSize
     }
